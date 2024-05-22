@@ -1,0 +1,92 @@
+.form{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    padding-top: 10VH;
+    padding-bottom: 10VH;
+}
+
+.log{
+    padding: 10px;
+    box-shadow: 0px 0px 6px 0px black;
+    height: 50vh;
+}
+
+.cad{
+    padding: 10px;
+    box-shadow: 0px 0px 6px 0px black;
+    height: max-content;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+input{
+    width: 20vw;
+    height: 6vh;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+.btt{
+    color: red;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.center{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+#picture__input {
+    display: none;
+  }
+  
+  .picture {
+    width: 400px;
+    aspect-ratio: 16/9;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  .picture:hover {
+    color: #777;
+    background: #ccc;
+  }
+  
+  .picture:active {
+    border-color: turquoise;
+    color: turquoise;
+    background: #eee;
+  }
+  
+  .picture:focus {
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .picture__img {
+    max-width: 100%;
+  }

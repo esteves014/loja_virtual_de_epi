@@ -1,0 +1,20 @@
+.card_p {
+    display: flex;
+}
+
+.nome_p {
+    color: black;
+}
+
+.img_p {
+    width: 25vw;
+    height: auto;
+}
+
+.container {
+    width: 50vw;
+    height: max-content;
+    padding: 10px;
+    margin: auto;
+    word-break: break-word;
+}
