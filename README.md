@@ -1,5 +1,7 @@
 # ⛑️ Loja Virtual de EPI Esteves EPI
 
+Loja Virtual em php, com cadastro/edição de produto e cadastro de usuário. 
+
 ## 🚀 Tecnologias Utilizadas
 
 - **PHP**-Conexão com o Banco de Dados e manipulação de dados
